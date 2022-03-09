@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(205, 205, 205);  
+}
+
+#navbar {
+    background-color: black;
+    height: auto;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#navbar h1 {
+    color: grey;
+}
+
+#navbar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color:grey;
+    display: block;
+}
+
+#navbar a:hover {
+    color: green;
+}
+
