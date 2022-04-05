@@ -1,11 +1,12 @@
 body {
-  background-color: rgb(205, 205, 205);  
+    background-image: url("https://www.esgtoday.com/wp-content/uploads/2020/06/technology-background-1632715-1.jpg");
 }
 
+/* NAVBAR */
 #navbar {
-    background-color: black;
-    height: auto;
-    width: 160px;
+    background-color: rgb(22, 22, 151);
+    height: 100%;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -20,8 +21,9 @@ body {
 
 #navbar a {
     padding: 6px 8px 6px 16px;
+    justify-content: space-between;
     text-decoration: none;
-    color:grey;
+    color: grey;
     display: block;
 }
 
@@ -29,3 +31,43 @@ body {
     color: green;
 }
 
+#navbar img {
+    margin: 100px 10px 100px 0;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
+.main {
+    margin-left: 199px;
+}
+
+.menu {
+    background-color: rgb(48, 48, 164);
+    width: 100%;
+    height: 500px;
+    flex-direction: inherit;
+    margin: 50px;
+    padding: 50px;
+    color: aliceblue;
+}
+
+/* ABOUT ME */
+
+#name head {
+    text-align: center;
+    color: green;
+    justify-content: center;
+    width: fit-content;
+    font-size: 400px;
+}
+
+/* PROJECTS */
+
+/* SKILLS */
+.image {
+    width: 100px;
+    height: 100px;
+    flex-direction: row;
+    margin: 10px;
+}
