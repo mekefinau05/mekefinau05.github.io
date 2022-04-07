@@ -4,62 +4,73 @@ body {
 
 /* NAVBAR */
 #navbar {
-    background-color: rgb(22, 22, 151);
+    background-color: rgb(48 48 164);
     height: 100%;
-    width: 200px;
+    width: 17rem;
     position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
+    text-align: center;
 }
 
 #navbar h1 {
-    color: grey;
+    color: silver;
 }
 
 #navbar a {
-    padding: 6px 8px 6px 16px;
+    padding: 0 8px 10px 16px;
     justify-content: space-between;
     text-decoration: none;
-    color: grey;
-    display: block;
+    color: silver;
 }
 
 #navbar a:hover {
-    color: green;
+    color: grey;
 }
 
 #navbar img {
     margin: 100px 10px 100px 0;
     width: 200px;
     border-radius: 50%;
-    border: 5px solid green;
+    border: 5px solid silver;
+    justify-content: center;
 }
 
+/* .section {
+    background-color: brown;
+    width: 100%;
+    height: 100vh;
+    margin-left: 17rem;
+} */
+
 .main {
-    margin-left: 199px;
+    width: 100%;
+    margin-left: 17rem;
+    padding: 0px 10px;
+    display: block;
 }
 
 .menu {
     background-color: rgb(48, 48, 164);
-    width: 100%;
-    height: 500px;
-    flex-direction: inherit;
-    margin: 50px;
+    width: 70vw;
+    height: 400px;
+    margin: 20px;
     padding: 50px;
-    color: aliceblue;
+    color: silver;
 }
 
 /* ABOUT ME */
 
-#name head {
-    text-align: center;
-    color: green;
-    justify-content: center;
+#head {
+    color: silver;
     width: fit-content;
-    font-size: 400px;
+    font-size: 20vh;
+}
+
+#about-me {
+    font-size: 4vh;
 }
 
 /* PROJECTS */
