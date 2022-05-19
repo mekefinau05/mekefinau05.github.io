@@ -1,5 +1,6 @@
 body {
     background-image: url("https://www.esgtoday.com/wp-content/uploads/2020/06/technology-background-1632715-1.jpg");
+    backdrop-filter: 100%;
 }
 
 /* NAVBAR */
@@ -46,15 +47,15 @@ body {
 } */
 
 .main {
-    width: 100%;
+    width: 100vw;
     margin-left: 17rem;
-    padding: 0px 10px;
+    padding: 0px 2px;
     display: block;
 }
 
 .menu {
     background-color: rgb(48, 48, 164);
-    width: 70vw;
+    width: 80%;
     height: 400px;
     margin: 20px;
     padding: 50px;
@@ -65,12 +66,12 @@ body {
 
 #head {
     color: silver;
-    width: fit-content;
-    font-size: 20vh;
+    font-size: 100px;
+    align-items: center;
 }
 
 #about-me {
-    font-size: 4vh;
+    font-size: 3vh;
 }
 
 /* PROJECTS */
@@ -86,4 +87,21 @@ body {
     height: 100px;
     flex-direction: row;
     margin: 10px;
+}
+
+/* CONTACT */
+.socialMedia img {
+    width: 50px;
+    height: 50px;
+    display: flexbox;
+    flex-flow: column;
+}
+
+.linkedIn {
+    display: flex;
+}
+
+.linkedIn a {
+    text-decoration: none;
+    color: lightgrey
 }
