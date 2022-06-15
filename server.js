@@ -4,10 +4,10 @@ const path = require('path');
 const app = express();
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, './main.html'));
+  res.sendFile(path.join(__dirname, '/main.html'));
 });
 
-const port = process.env.PORT || 4005;
+const port = process.env.PORT || 4004;
 
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
