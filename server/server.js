@@ -18,6 +18,8 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, '../public/main.html'));
 });
 
+app.use(express.static(path.join(__dirname, '../public')));
+
 const port = process.env.PORT || 4004;
 
 app.listen(port, () => {
