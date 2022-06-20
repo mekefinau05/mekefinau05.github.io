@@ -46,8 +46,8 @@
 }
 
 .section {
-    width: 100;
-    height: 100;
+    width: 100%;
+    height: 100%;
 }
 
 .main {
@@ -121,9 +121,28 @@
     color: lightgrey
 }
 }
-/* @media only screen and (max-width: 600px) {
-    #navbar {
-        
+
+
+/* RESPONSIVE MEDIA */
+/* responsive media */
+/* RESPONSIVE MEDIA */
+
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 75%;
     }
 
-} */
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navbar {
+        width: 100%;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+}
