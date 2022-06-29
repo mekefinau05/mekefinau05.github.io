@@ -1,16 +1,15 @@
-@media only screen and (max-width: 1440px) {    
-
-.body {
-    background-image: url("https://www.esgtoday.com/wp-content/uploads/2020/06/technology-background-1632715-1.jpg");
+@media only screen and (max-width: 1440px) {
+  .body {
+    background-image: url('https://www.esgtoday.com/wp-content/uploads/2020/06/technology-background-1632715-1.jpg');
     backdrop-filter: 100%;
     margin: 0;
     height: auto;
     width: auto;
     padding: 2vh 1vw;
-}
+  }
 
-/* NAVBAR */
-#navbar {
+  /* NAVBAR */
+  #navbar {
     background-color: rgb(48 48 164);
     height: 100%;
     width: 17rem;
@@ -20,129 +19,164 @@
     overflow-x: hidden;
     padding-top: 20px;
     text-align: center;
-}
+  }
 
-#navbar h1 {
+  #navbar h1 {
     color: silver;
-}
+  }
 
-#navbar a {
+  #navbar a {
     padding: 0 8px 10px 16px;
     justify-content: space-between;
     text-decoration: none;
     color: silver;
-}
+  }
 
-#navbar a:hover {
+  #navbar a:hover {
     color: grey;
-}
+  }
 
-#navbar img {
+  #navbar img {
     margin: 100px 10px 100px 0;
     width: 200px;
     border-radius: 50%;
     border: 5px solid silver;
     justify-content: center;
-}
+  }
 
-.section {
+  .section {
     width: 100%;
     height: 100%;
-}
+  }
 
-.main {
+  .main {
     width: 100%;
     margin-left: 17rem;
     padding: 0px 2px;
     display: flex;
     flex-wrap: wrap;
-}
+  }
 
-.menu {
+  .menu {
     background-color: rgb(48, 48, 164);
     width: 70vw;
     height: 50vh;
     margin: 4vh 2vw;
     padding: 4vh 2vw;
     color: silver;
-}
+  }
 
-/* ABOUT ME */
+  /* ABOUT ME */
 
-#head {
+  #head {
     color: silver;
     font-size: 10vh;
-}
+  }
 
-#about-me {
+  #about-me {
     font-size: 3.5vh;
-}
+  }
 
-/* PROJECTS */
+  /* PROJECTS */
 
-.video {
-    width: 6vw;
-    height: 6vh;
+  .video {
+    width: 250;
+    height: 300;
     display: flex;
-}
+  }
 
-.lash {
+  .lash {
     margin-left: 4vw;
     margin-right: 4vw;
-}
+  }
 
-.cake {
+  .cake {
     margin-left: 4vw;
     margin-right: 4vw;
-}
+  }
 
-/* SKILLS */
-.image {
+  /* SKILLS */
+  .image {
     width: 100px;
     height: 100px;
     flex-direction: row;
     margin: 10px;
-}
+  }
 
-/* CONTACT */
-.socialMedia img {
+  /* CONTACT */
+  .socialMedia img {
     width: 50px;
     height: 50px;
     display: flexbox;
     flex-flow: column;
-}
+  }
 
-.linkedIn {
+  .linkedIn {
     display: flex;
-}
+  }
 
-.socialMedia a {
+  .socialMedia a {
     text-decoration: none;
-    color: lightgrey
+    color: lightgrey;
+  }
 }
-}
-
 
 /* RESPONSIVE MEDIA */
 /* responsive media */
 /* RESPONSIVE MEDIA */
 
-@media only screen and (max-width: 640px) {
-    html {
-        font-size: 75%;
-    }
+@media screen and (max-width: 600px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .section {
-        display: flex;
-        flex-direction: column;
-    }
+  #navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+  }
 
-    #navbar {
-        width: 100%;
-    }
+  #navbar img {
+    width: 40vw;
+  }
 
-    .menu {
-        width: 100%;
-    }
+  #link {
+    display: none;
+  }
 
+  .body {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main {
+    width: 100vw;
+    text-align: center;
+    margin-left: auto;
+  }
+
+  .menu {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .video {
+    width: 60vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .socialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
